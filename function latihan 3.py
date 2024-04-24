@@ -1,7 +1,7 @@
-def pembagian(x, y, z):
-    return x * y / z
+def sorts(*x):
+    for value in x:
+        print(value)
 
-# Kita atur z sedemikian rupa sehingga hasilnya mendekati 6.26
-z = 20 * 10 / 6.26
-
-print(pembagian(20, 10, z))
+sorts(10, 20)
+sorts(50, 70)
+sorts(90, 30)
